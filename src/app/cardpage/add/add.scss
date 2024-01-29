@@ -1,0 +1,19 @@
+input {
+  // Common styles for input elements
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+
+  &:focus {
+    outline: none;
+    border-color: #3498db; // Example focus color
+  }
+}
+
+button {
+  background: blue;
+  padding: 10px;
+  color: white;
+}
